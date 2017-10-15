@@ -116,15 +116,15 @@ bindsym $mod+a focus parent
 #set $workspace1 ""
 #set $workspace3 ""
 #set $workspace2 ""
-set $workspace0 "Video "
+set $workspace0 "Work "
 set $workspace1 "Terminal "
-set $workspace2 "Web "
-set $workspace3 "File Manager "
-set $workspace4 "Email "
-#set $workspace4 "Music "
-
-#set $workspace6 "6:Game "
-set $workspace8 "Work "
+set $workspace2 "Spyder "
+set $workspace3 "Web "
+set $workspace6 "Email "
+set $workspace5 "Video "
+set $workspace4 "File "
+set $workspace7 "Junk "
+set $workspace8 "Game "
 set $workspace9 "Firefox "
 #set $workspace10 "10:Spotify "
 
@@ -138,7 +138,7 @@ bindsym $mod+6 workspace $workspace6
 bindsym $mod+7 workspace $workspace7
 bindsym $mod+8 workspace $workspace8
 bindsym $mod+9 workspace $workspace9
-#bindsym $mod+0 workspace 10
+bindsym $mod+5 workspace $workspace5
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
@@ -150,20 +150,21 @@ bindsym $mod+Shift+6 move container to workspace $workspace6
 bindsym $mod+Shift+7 move container to workspace $workspace7
 bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+9 move container to workspace $workspace9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+0 move container to workspace $workspace0
 
-# open applications on specific workspaces
+
+# open applications on specific workspaces #### use "xprop" to check the class of an application"
 assign [class="Chromium"] $workspace2
 assign [class="Google-chrome"] $workspace2
 assign [class="Firefox"] $workspace9
-assign [class="Thunar"] $workspace3
+assign [class="sublime_text"] $workspace0
 #assign [class="Thunderbird"] $workspace7
 #assign [class="Spotify"] $workspace10
 #for_window [class="Spotify"] move to workspace $workspace10 
-#assign [class="Rhythmbox"] $workspace4
+assign [class="Nautilus"] $workspace4
 #assign [class="Audacious"] $workspace4
 #assign [class="Gnome-mplayer"] $workspace5
-assign [class="Vlc"] $workspace0
+assign [class="Vlc"] $workspace5
 #assign [class="Totem"] $workspace5
 #assign [class="MPlayer"] $workspace5
 #assign [class="Steam"] $workspace6
@@ -305,7 +306,10 @@ exec --no-startup-id dunst &
 exec_always --no-startup-id nm-applet &
 exec chromium
 exec --no-startup-id conky
+exec --no-startup-id dunst -config /home/arc/.config/dunst/dunstrc
+exec subl
 exec gnome-terminal
+#exec gnome-terminal
 #exec terminal
 #exec --no-startup-id kalu
 #exec --no-startup-id .config/conky/start_conky
@@ -333,7 +337,8 @@ client.focused  #2f343f   #2f343f       #ffffff
 for_window [class="Lxappearance"] floating enable border normal
 for_window [class="Nitrogen"] floating enable sticky enable border normal
 for_window [class="Nautilus"] floating enable border normal
-for_window [class="gnome-terminal"] floating enable
+for_window [class="Gnome-terminal"] floating enable
+for_window [class="feh"] floating enable resize set 640 480 
 
 # Screenshot
 bindsym Print exec scrot /home/arc/Pictures/`date +%Y-%m-%d_%H:%M:%S`.png
