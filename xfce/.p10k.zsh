@@ -1,0 +1,1 @@
+/home/archie/.p10k.zsh
