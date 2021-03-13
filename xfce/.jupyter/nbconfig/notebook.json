@@ -1,0 +1,22 @@
+{
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
+  },
+  "Notebook": {
+    "Header": true,
+    "Toolbar": true
+  },
+  "keys": {
+    "command": {
+      "bind": {
+        "ctrl-shift-a": "jupyter-notebook:confirm-restart-kernel-and-run-all-cells",
+        "ctrl-shift-/": "jupyter-notebook:restart-kernel"
+      }
+    }
+  },
+  "load_extensions": {
+    "jupyter-js-widgets/extension": true
+  }
+}

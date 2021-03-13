@@ -1,0 +1,30 @@
+{
+    // Fonts
+    // @deathbeds/jupyterlab-fonts:fonts
+    // Settings for JupyterLab Fonts
+    // *********************************
+
+    // Enable Custom Fonts
+    // Enable all font customizations
+    "enabled": true,
+
+    // Embedded Font Licenses
+    // Rights for embedded fonts
+    "fontLicenses": {},
+
+    // Embedded Fonts
+    // Embedded JSS `@font-face` declarations grouped by `font-family`
+    "fonts": {},
+
+    // Global Styles
+    // JSS-compatible JSON applied to the Global scope
+    "styles": {
+         ":root": {
+            "--jp-code-font-family": "Monaco"
+          }
+        },
+
+    // Configuration Version
+    // Reserved for future use to provide backwards compatibility
+    "version": "v1"
+}

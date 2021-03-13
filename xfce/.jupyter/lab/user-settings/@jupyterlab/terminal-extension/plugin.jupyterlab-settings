@@ -1,0 +1,18 @@
+{
+    // Terminal
+    // @jupyterlab/terminal-extension:plugin
+    // Terminal settings.
+    // *************************************
+
+    // Font family
+    // The font family used to render text.
+    "fontFamily": "Cascadia code",
+
+    // Font size
+    // The font size used to render text.
+    "fontSize": 13,
+
+    // Theme
+    // The theme for the terminal.
+    "theme": "dark"
+}

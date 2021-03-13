@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=
+Encoding=UTF-8
+Exec=sh -c "sleep 5; conky;"
+Name=conky
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Type=Application
+Version=0.9.4

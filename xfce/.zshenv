@@ -1,1 +1,1 @@
-/home/archie/.zshenv
+source "$HOME/.cargo/env"

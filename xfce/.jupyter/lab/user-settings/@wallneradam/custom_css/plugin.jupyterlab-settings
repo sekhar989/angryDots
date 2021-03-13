@@ -1,0 +1,28 @@
+{
+    "rules": [
+        {
+            "selector": ".CodeMirror pre.CodeMirror-line, .jp-OutputArea-output.jp-RenderedText pre, .jp-OutputArea-output.jp-RenderedHTMLCommon, .jp-Completer-item .jp-Completer-match, .jp-Tooltip, .jp-RenderedText pre, .jp-RenderedJavaScript pre, .jp-RenderedHTMLCommon pre, tt, code, kbd, samp, pre",
+            "styles": [
+                "font-family: Monaco", // Make font the same as code font
+//                 "font-size: 90%"  // Make font smaller
+            ]
+        },
+
+        // Make tables the same font size as the other outputs
+        {
+            "selector": ".jp-RenderedHTMLCommon table",
+            "styles": [
+                "font-size: inherit !important" // Make use the same size
+            ]
+        },
+//         {
+//             "selector": ".cm-s-jupyter span.cm-string",
+//             "styles": [
+//                 "color : #ffffff"
+//             ]
+//         }
+    ]
+}
+
+// .CodeMirror pre.CodeMirror-line,
+//     .jp-OutputArea-output pre
