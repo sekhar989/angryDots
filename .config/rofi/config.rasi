@@ -1,0 +1,16 @@
+configuration {
+
+	modi: "drun,run";
+	display-drun: "";
+	display-run:"";
+	disable-history:                false;
+	show-icons: true;
+	icon-theme: "Sweet-Blue";
+	lines: 5;
+	padding:480;
+	width:40;
+	eh:1;
+
+}
+
+@import "material.rasi"
