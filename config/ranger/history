@@ -1,0 +1,50 @@
+search pair
+w
+touch pairs.h
+search rf_te
+rename .old_srChartPattern.so
+open_with 
+rename srChartPattern.cpython-38-x86_64-linux-gnu.so
+rename srChartPattern.so
+search cry
+search Hist
+search tr
+search scyther
+cd ~
+search zshrc
+search zsrc
+search condar
+search zshr
+cd Documents/hunt/backend/
+touch kaggle.json
+cd  Down
+cd Downloads/
+search kagg
+shell chmod 600
+search jupy
+cd  ~
+search .zshr
+search Doc
+shell pwd
+search .ss
+cd Documents/hunt/
+search .vimr
+search .conf
+search ne
+shell touch base.html
+open_with%space1
+shell touch urls.py
+shell touch project_index.html
+shell touch project_detail.html
+open_with 1
+cd  /
+shell chmod +x setupvars.sh
+shell sudo chmod +x setupvars.sh
+shell sudo ./setupvars.sh
+search src
+search .bashr
+delete
+search .ssh
+cd Documents/
+shell mkdir model_opt
+cd qq

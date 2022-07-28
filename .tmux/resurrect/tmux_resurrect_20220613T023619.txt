@@ -1,0 +1,9 @@
+pane	code	1	1	:*	1	:/home/archie/Documents/hunt/NLP/NLP-Projects/NER\ Tagger/app	1	python	:/home/archie/miniconda3/envs/torch/bin/python /home/archie/miniconda3/envs/torch/bin/ipython
+pane	code	1	1	:*	2	:/home/archie/Documents/hunt/backend/mysite	0	zsh	:
+pane	code	1	1	:*	3	:/home/archie	0	htop	:htop
+pane	code	2	0	:-	1	:/home/archie/Documents/hunt/backend/portfolio/projects	1	zsh	:
+pane	code	2	0	:-	2	:/home/archie/Documents/hunt/backend/portfolio	0	zsh	:
+pane	code	2	0	:-	3	:/home/archie/Documents/hunt/backend/portfolio	0	zsh	:
+window	code	1	:python	1	:*	240b,237x122,0,0{133x122,0,0,1,103x122,134,0[103x73,134,0,2,103x48,134,74,3]}	:
+window	code	2	:zsh	0	:-	ec63,237x122,0,0[237x71,0,0,4,237x50,0,72{140x50,0,72,5,96x50,141,72,6}]	:
+state	code	

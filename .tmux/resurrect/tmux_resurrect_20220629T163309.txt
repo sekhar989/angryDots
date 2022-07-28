@@ -1,0 +1,9 @@
+pane	code	1	1	:*Z	1	:/opt/intel/openvino/scripts/setupvars	1	python3.8	:/usr/bin/python3.8 -O /usr/bin/ranger
+pane	code	1	1	:*Z	2	:/home/archie/Documents/hunt/backend/mysite	0	zsh	:
+pane	code	1	1	:*Z	3	:/home/archie	0	htop	:htop
+pane	code	2	0	:-	1	:/home/archie/Documents/hunt/backend/portfolio/projects	1	zsh	:
+pane	code	2	0	:-	2	:/home/archie/Documents/hunt/backend/portfolio	0	zsh	:
+pane	code	2	0	:-	3	:/home/archie/Documents/hunt/backend/portfolio	0	zsh	:
+window	code	1	:[tmux]	1	:*Z	2533,117x59,0,0{73x59,0,0,1,43x59,74,0[43x31,74,0,2,43x27,74,32,3]}	:
+window	code	2	:zsh	0	:-	d172,238x59,0,0[238x39,0,0,4,238x19,0,40{141x19,0,40,5,96x19,142,40,6}]	:
+state	code	

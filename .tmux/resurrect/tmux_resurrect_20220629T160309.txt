@@ -1,0 +1,9 @@
+pane	code	1	1	:*	1	:/home/archie	1	zsh	:
+pane	code	1	1	:*	2	:/home/archie/Documents/hunt/backend/mysite	0	zsh	:
+pane	code	1	1	:*	3	:/home/archie	0	htop	:htop
+pane	code	2	0	:-	1	:/home/archie/Documents/hunt/backend/portfolio/projects	1	zsh	:
+pane	code	2	0	:-	2	:/home/archie/Documents/hunt/backend/portfolio	0	zsh	:
+pane	code	2	0	:-	3	:/home/archie/Documents/hunt/backend/portfolio	0	zsh	:
+window	code	1	:zsh	1	:*	f0c9,238x59,0,0{134x59,0,0,1,103x59,135,0[103x31,135,0,2,103x27,135,32,3]}	:
+window	code	2	:zsh	0	:-	d172,238x59,0,0[238x39,0,0,4,238x19,0,40{141x19,0,40,5,96x19,142,40,6}]	:
+state	code	

@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/archie/Documents'
+let g:netrw_dirhist_8='/home/archie/Documents/tenet_cap'
+let g:netrw_dirhist_7='/home/archie/Documents'
+let g:netrw_dirhist_6='/home/archie'
+let g:netrw_dirhist_5='/home/archie/.fonts'
+let g:netrw_dirhist_4='/home/archie'
+let g:netrw_dirhist_3='/home/archie/Documents/uni/planhunt/eop_py/cpp'
+let g:netrw_dirhist_2='/home/archie/Documents/uni/planhunt/eop_py'
+let g:netrw_dirhist_1='/home/archie/.vim/plugged'

@@ -1,0 +1,9 @@
+pane	code	1	0	:-	1	:/home/archie	1	zsh	:
+pane	code	1	0	:-	2	:/home/archie/Documents/hunt/backend/mysite	0	zsh	:
+pane	code	1	0	:-	3	:/home/archie	0	htop	:htop
+pane	code	2	1	:*Z	1	:/home/archie	1	python	:/home/archie/miniconda3/envs/torch/bin/python /home/archie/miniconda3/envs/torch/bin/ipython
+pane	code	2	1	:*Z	2	:/home/archie	0	zsh	:
+pane	code	2	1	:*Z	3	:/home/archie/Documents/hunt	0	zsh	:
+window	code	1	:zsh	0	:-	674e,138x122,0,0{84x122,0,0,1,53x122,85,0[53x73,85,0,2,53x48,85,74,3]}	:
+window	code	2	:python	1	:*Z	696d,169x122,0,0[169x71,0,0,4,169x50,0,72{107x50,0,72,5,61x50,108,72,6}]	:
+state	code	

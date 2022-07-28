@@ -1,0 +1,9 @@
+pane	code	1	0	:-	1	:/home/archie	1	zsh	:
+pane	code	1	0	:-	2	:/home/archie/Documents/hunt/backend/mysite	0	zsh	:
+pane	code	1	0	:-	3	:/home/archie	0	htop	:htop
+pane	code	2	1	:*	1	:/home/archie/.ssh	0	python3.8	:/usr/bin/python3.8 -O /usr/bin/ranger
+pane	code	2	1	:*	2	:/home/archie	1	zsh	:
+pane	code	2	1	:*	3	:/home/archie/Documents/hunt	0	python3.8	:/home/archie/miniconda3/envs/torch/bin/python3.8 /home/archie/miniconda3/envs/torch/bin/jupyter-lab
+window	code	1	:zsh	0	:-	674e,138x122,0,0{84x122,0,0,1,53x122,85,0[53x73,85,0,2,53x48,85,74,3]}	:
+window	code	2	:zsh	1	:*	4430,138x122,0,0[138x71,0,0,4,138x50,0,72{91x50,0,72,5,46x50,92,72,6}]	:
+state	code	

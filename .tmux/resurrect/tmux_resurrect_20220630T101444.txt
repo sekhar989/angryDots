@@ -1,0 +1,9 @@
+pane	code	1	0	:-	1	:/opt/intel/openvino/scripts/setupvars	0	zsh	:
+pane	code	1	0	:-	2	:/home/archie/Documents/hunt/backend/mysite	1	zsh	:
+pane	code	1	0	:-	3	:/home/archie	0	htop	:htop
+pane	code	2	1	:*	1	:/home/archie/Documents/open_vino	0	zsh	:
+pane	code	2	1	:*	2	:/home/archie/Documents/open_vino	0	zsh	:
+pane	code	2	1	:*	3	:/home/archie/Documents/open_vino	1	python3.8	:/home/archie/miniconda3/envs/torch/bin/python3.8 /home/archie/miniconda3/envs/torch/bin/jupyter-lab
+window	code	1	:zsh	0	:-	c915,238x59,0,0{133x59,0,0,1,104x59,134,0[104x31,134,0,2,104x27,134,32,3]}	:
+window	code	2	:python3.8	1	:*	cf56,238x59,0,0[238x39,0,0,4,238x19,0,40{140x19,0,40,5,97x19,141,40,6}]	:
+state	code	
