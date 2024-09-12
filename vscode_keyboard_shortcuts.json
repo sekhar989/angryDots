@@ -1,79 +1,75 @@
-// Place your key bindings in this file to override the defaultsauto[]
+// Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+k ctrl+enter",
+        "key": "cmd+e",
+        "command": "-actions.findWithSelection"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "cmd+0",
+        "command": "workbench.action.zoomReset"
+    },
+    {
+        "key": "cmd+numpad0",
+        "command": "-workbench.action.zoomReset"
+    },
+    {
+        "key": "cmd+k cmd+q",
+        "command": "-workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "cmd+k cmd+e",
+        "command": "workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "workbench.debug.action.toggleRepl",
+        "when": "workbench.panel.repl.view.active"
+    },
+    {
+        "key": "cmd+k cmd+enter",
         "command": "python.execInTerminal"
     },
     {
-        "key": "ctrl+e",
+        "key": "cmd+e",
         "command": "workbench.view.explorer"
     },
     {
-        "key": "ctrl+shift+e",
+        "key": "cmd+shift+e",
         "command": "-workbench.view.explorer",
         "when": "viewContainer.workbench.view.explorer.enabled"
     },
     {
-        "key": "ctrl+e",
+        "key": "cmd+e",
         "command": "-workbench.action.quickOpen"
     },
-    {
-        "key": "ctrl+q",
-        "command": "-workbench.action.quickOpenView"
-    },
-    {
-        "key": "ctrl+k ctrl+q",
-        "command": "workbench.debug.action.toggleRepl",
-        "when": "workbench.panel.repl.view.active"
-    },
+
     {
         "key": "ctrl+shift+y",
         "command": "-workbench.debug.action.toggleRepl",
         "when": "workbench.panel.repl.view.active"
     },
+
     {
-        "key": "ctrl+k ctrl+q",
-        "command": "-workbench.action.navigateToLastEditLocation"
-    },
-    {
-        "key": "ctrl+k e",
+        "key": "cmd+k e",
         "command": "-workbench.files.action.focusOpenEditorsView",
         "when": "workbench.explorer.openEditorsView.active"
     },
     {
-        "key": "ctrl+q",
-        "command": "workbench.action.focusActiveEditorGroup"
-    },
-    {
-        "key": "ctrl+shift+i",
+        "key": "cmd+shift+i",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
+
     {
-        "key": "shift+alt+f",
-        "command": "-editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "editor.action.formatDocument.none",
-        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+f",
-        "command": "-editor.action.formatDocument.none",
-        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+i",
+        "key": "cmd+shift+i",
         "command": "notebook.format",
         "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
     },
-    {
-        "key": "shift+alt+f",
-        "command": "-notebook.format",
-        "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
-    },
+
     {
         "key": "ctrl+shift+i",
         "command": "notebook.formatCell",
@@ -85,19 +81,12 @@
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
     },
     {
-        "key": "ctrl+oem_8",
+        "key": "ctrl+`",
         "command": "workbench.action.terminal.focus"
     },
+
     {
-        "key": "ctrl+oem_8",
-        "command": "terminal.focus"
-    },
-    {
-        "key": "ctrl+k ctrl+m",
-        "command": "python.sortImports"
-    },
-    {
-        "key": "ctrl+shift+oem_2",
+        "key": "ctrl+shift+`",
         "command": "jupyter.notebookeditor.restartkernel"
     },
     {
@@ -114,16 +103,15 @@
         "command": "-notebook.cell.joinBelow",
         "when": "notebookEditorFocused"
     },
+
     {
-        "key": "ctrl+j",
-        "command": "-workbench.action.togglePanel"
-    },
-    {
-        "key": "ctrl+k ctrl+space",
+        "key": "cmd+k cmd+x",
         "command": "workbench.action.toggleAuxiliaryBar"
     },
+
     {
-        "key": "ctrl+j",
-        "command": "workbench.action.togglePanel"
+        "key": "alt+q",
+        "command": "workbench.action.focusActiveEditorGroup"
     }
+
 ]
